@@ -1,0 +1,6 @@
+.DS_Store
+
+# Use "#" for commend
+# Use "*" to ignore all file match that wildcard
+
+secrets.txt
