@@ -1,0 +1,9 @@
+# How to generate your beautiful SSH key for your git accounts. 10/4/2022 I have been struggled with this a lot.
+ Step 1: Type cd ~/.ssh && ssh-keygen
+ Step 2: ls and find file with extension: id_rsa.pub | pbcopy 
+	- on MacOS run: cat <your_file_name> ( it must be format "ssh-rsa ......"
+ Step 3: copy your own public key.
+ Step 4: add your public Key: ssh-add cat\ id_rsa.pub\ (mustn't have suffix .pbcopy) 
+ Step 5: go to git your account home page -> settings -> SSH and GPG keys
+ Step 6: choose "New SSH key" and paste your own public key there, give it a shot.
+   
